@@ -41,6 +41,8 @@ header{
 .hdg-content{
     display: flex;
     flex-direction: column;
+    gap: 5%;
+    align-items: start;
     padding-top: 100px;
 }
 
@@ -53,6 +55,14 @@ header{
 .hdg-banner img{
    position: relative;
    right: -20px;
+}
+
+a{
+    background-color: #8C30F5;
+    color: white;
+    border-radius: 8px;
+    padding: 12px 32px 12px 32px;
+    text-decoration: none;
 }
 /*HEADING SECTION END*/
 
