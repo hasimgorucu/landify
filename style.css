@@ -9,7 +9,6 @@
   flex-direction: column;
   gap: 100px;
   align-items: center;
- /* height: 100vh;*/
 }
 
 nav ul li {
@@ -177,6 +176,7 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #18191F;
 }
 
 .tst-container{
@@ -203,13 +203,15 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  flex: 1;
 }
 
 .tst-right-side{
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding-top: 60px;
+  padding-top: 80px;
+  flex: 1;
 }
 
 .tst-card-texts{
@@ -243,15 +245,271 @@ nav ul li a {
 }
 
 #tst-left-card{
-  width: 50%;
+  width: 60%;
   align-self: end;
 }
 
 #tst-right-bottom-card{
-  width: 80%;
+  width: 60%;
 }
 
 #tst-right-top-card{
-  width: 100%;
+  width: 80%;
 }
 /*TESTIMONAL SECTION END*/
+
+/*STATS SECTION START*/
+.stats{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  color: #18191F;
+  
+}
+
+.stt-container{
+  width: 70%;
+  display: flex;
+}
+
+.stt-text{
+  flex: 1;
+}
+
+.stt-text-heading{
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 800;
+}
+
+.stt-text-description{
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.stt-stats-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+}
+
+.stt-stats-item{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+
+.stt-stats-item-heading{
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.stt-stats-item-description{
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+/*STATS SECTION END*/
+
+/*HEADLINE SECTION START*/
+.headline{
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #18191F;
+}
+
+.hdl-container{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.hdl-container > img{
+  flex: 1;
+}
+
+.hdl-texts{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.hdl-texts >a{
+  color: #8C30F5;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.hdl-heading{
+  font-size: 40px;
+  line-height: 54px;
+  font-weight: 800;
+}
+
+.hdl-description{
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+/*HEADLINE SECTION END*/
+
+/*FASHION SECTION START*/
+.fashion{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+  color: #18191F;
+}
+
+.fsh-container{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.fsh-texts{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fsh-heading{
+  font-size: 40px;
+  line-height: 54px;
+  font-weight: 800;
+  flex: 1;
+}
+
+.fsh-description{
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  flex: 1;
+
+}
+
+.fsh-container > img{
+  width: 100%;
+}
+/*FASHION SECTION END*/
+
+
+/*MANAGE SECTION START*/
+.manage{
+  background-color: #2EC5CE;
+  display: flex;
+  justify-content: center;
+}
+
+.mng-container{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.mng-apps>p{
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.mng-left{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.mng-heading{
+  font-size: 40px;
+  line-height: 54px;
+  font-weight: 800;
+  color: #18191F;
+
+}
+
+.mng-description{
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #18191F;
+  text-align: justify;
+}
+
+.mng-right{
+  display: flex;
+  flex: 1;
+}
+
+.mng-right>img{
+  width: 55%;
+}
+/*MANAGE SECTION END*/
+
+/*FOOTER START*/
+footer{
+  background-color: #0B0D17;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.foo-container{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.foo-text{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.foo-text ul li{
+  list-style: none;
+  display: inline;
+  padding-right: 20px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #D9DBE1;
+}
+
+.foo-text p{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #D9DBE1;
+}
+
+.foo-app{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.foo-app>p{
+  color:  #D9DBE1;
+}
+/*FOOTER END*/
